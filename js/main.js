@@ -12,6 +12,7 @@
      * @param {Object} post The WordPress post JSON object.
      */
     function buildPost( post ) {
+        console.log( post );
         // Build the container for the single post.
         let postContainer = document.createElement( 'article' );
         postContainer.classList.add( post.type, 'post-' + post.id );

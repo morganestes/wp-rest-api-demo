@@ -77,7 +77,7 @@
 
                 throw new Error( response.status + ' - ' + response.statusText );
             } )
-            .then( function promiseCB( posts ) {
+            .then( function fetchPromise( posts ) {
                 posts.forEach( function postBuilder( post ) {
                     buildPost( post );
                 } );

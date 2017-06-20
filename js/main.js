@@ -28,10 +28,8 @@
         postExcerpt.innerHTML = post.excerpt.rendered;
         postContainer.appendChild( postExcerpt );
 
-        // Add this post to the fragment
-        postFrag
-            .appendChild( postContainer )
-            .appendChild( postExcerpt );
+        // Add this post to the fragment.
+        postFrag.appendChild( postContainer );
     }
 
     /**

@@ -2,7 +2,7 @@
 (function ( window, document, $ ) {
     'use strict';
 
-    const postsUrl = 'http://wp-api-demo.dev/wp-json/wp/v2/posts';
+    const postsUrl = 'http://wp-api-demo.dev/wp-json/wp/v2/posts?context=embed';
     const postsContainer = document.getElementById( 'posts' );
     const timer = document.getElementById( 'timer' );
     const postFrag = document.createDocumentFragment();
